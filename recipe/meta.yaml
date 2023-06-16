@@ -1,5 +1,5 @@
 {% set name = "carto-auth" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e1a90c0f032c30e0b4af19f0f9b8e382460e920a4d93c92cfa5a30bfe28c93a4
+  sha256: 982d293d723e92dc334734a7be43a113dd7c8ce8c5d97b49d86c2ad81d1c63a5
 
 build:
   number: 0
